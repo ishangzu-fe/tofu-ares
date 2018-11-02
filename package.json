@@ -1,0 +1,11 @@
+{
+  "name": "tofu-ares",
+  "version": "0.0.1",
+  "description": "ares for vue plugin",
+  "main": "index.js",
+  "author": "hujin@ishangzu.com",
+  "license": "ISC",
+  "devDependencies":{
+    "vue": "^2.5.13"
+  }
+}
