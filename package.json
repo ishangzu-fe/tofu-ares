@@ -5,7 +5,15 @@
   "main": "index.js",
   "author": "hujin@ishangzu.com",
   "license": "ISC",
-  "devDependencies":{
+  "devDependencies": {
     "vue": "^2.5.13"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel index.js -d dist/"
+  },
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
   }
 }
